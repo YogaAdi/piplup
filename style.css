@@ -15,8 +15,6 @@
   	margin-top: 2%;
   	width: 300px;
   	height: 400px;
-  	background: url("piplup.jpg") no-repeat center;
-  	background-size: 80%;
   }
 
   .head {
@@ -31,6 +29,19 @@
   	z-index: 3;
   }
 
+
+  .eye-feather {
+    position: absolute;
+    top: 32%;
+    left: 27%;
+    width: 52%;
+    height: 70%;
+    border: solid 2px #000;
+    border-radius: 71px 58px 20px 77px;
+    transform: rotate(-41deg);
+    background: none;
+  }
+
   .eye {
   	position: absolute;
     top: 52.5%;
@@ -41,7 +52,7 @@
     border-radius: 61px / 100px;
     transform: rotate(-9deg);
     background: rgb(46,63,107);
-    background: linear-gradient(43deg, rgba(46,63,107,1) 0%, rgba(44,84,145,1) 17%, rgba(47,83,141,0.6783088235294117) 100%);
+    background: linear-gradient(43deg, rgba(46,63,107,1) 0%, rgba(44,84,145,1) 17%, rgba(47,83,141,0.67) 100%);
   }
 
   .pupil {
@@ -76,7 +87,7 @@
     height: 14%;
     border-radius: 50%;
     background: rgb(71,114,167);
-    background: radial-gradient(circle, rgba(71,114,167,1) 0%, rgba(51,98,154,0.7203256302521008) 74%);
+    background: radial-gradient(circle, rgba(71,114,167,1) 0%, rgba(51,98,154,0.72) 74%);
     transform: rotate(-51deg);
     -webkit-box-shadow: 0px 0px 3px 0px rgba(71,114,167,1);
   	-moz-box-shadow: 0px 0px 3px 0px rgba(71,114,167,1);
@@ -112,5 +123,76 @@
   	z-index: 3;
   }
 
-  .mouth-fur {
+  .mouth-feather {
+
+  }
+
+  .upper-feather-front-right {
+    position: absolute;
+    top: 47.5%;
+    left: 63%;
+    width: 14%;
+    height: 14%;
+    -webkit-border-radius: 50%/60% 60% 40% 40%;
+    -moz-border-radius: 50%/60% 60% 40% 40%;
+    border-radius: 50%/60% 60% 40% 40%;
+    border: solid 2px #000;
+    transform: rotate(-233deg);
+    z-index: 2;
+  }
+
+  .upper-feather-front-left {
+    position: absolute;
+    top: 43.5%;
+    left: 39%;
+    width: 22%;
+    height: 22%;
+    -webkit-border-radius: 50%/60% 60% 40% 40%;
+    -moz-border-radius: 50%/60% 60% 40% 40%;
+    border-radius: 50%/60% 60% 40% 40%;
+    border: solid 2px #000;
+    transform: rotate(-47deg);
+    z-index: 2;
+  }
+
+  .upper-feather-front-back {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    width: 16%;
+    height: 26%;
+    -webkit-border-radius: 50%/60% 60% 40% 40%;
+    -moz-border-radius: 50%/60% 60% 40% 40%;
+    border-radius: 50%/60% 64% 42% 46%;
+    border: solid 2px #000;
+    transform: rotate(-125deg);
+    z-index: 2;
+  }
+
+  .upper-feather-tail-right {
+    position: absolute;
+    top: 48%;
+    left: 20%;
+    width: 5%;
+    height: 10%;
+    -webkit-border-radius: 50%/60% 60% 40% 40%;
+    -moz-border-radius: 50%/60% 60% 40% 40%;
+    border-radius: 50%/60% 64% 42% 46%;
+    border: solid 2px #000;
+    transform: rotate(-32deg);
+    z-index: 2;
+  }
+
+  .upper-feather-tail-left {
+    position: absolute;
+    top: 46%;
+    left: 13%;
+    width: 7%;
+    height: 17%;
+    -webkit-border-radius: 50%/60% 60% 40% 40%;
+    -moz-border-radius: 50%/60% 60% 40% 40%;
+    border-radius: 50%/60% 64% 42% 46%;
+    border: solid 2px #000;
+    transform: rotate(-32deg);
+    z-index: 2;
   }
