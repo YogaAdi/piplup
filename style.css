@@ -1,0 +1,114 @@
+/*
+  Primary Color: #4083ba;
+  Secondary Color: #add6da;
+  Tertiary Color: #f5cf3e;
+  */
+
+  body {
+  	background: #fff;
+  }
+
+  .box {
+  	position: relative;
+  	margin: auto;
+  	display: block;
+  	margin-top: 2%;
+  	width: 600px;
+  	height: 800px;
+  }
+
+  .head {
+  	position: absolute;
+  	top: 5.5%;
+  	left: 19%;
+  	width: 68%;
+  	height: 46%;
+  	background: none;
+  	border-radius: 54% 54% 57% 49%;
+  	border: solid 3px #000;
+  	z-index: 3;
+  }
+
+  .eye {
+  	position: absolute;
+    top: 52.5%;
+    left: 48%;
+    width: 14%;
+    height: 27%;
+    border: solid 3px #000;
+    border-radius: 61px / 100px;
+    transform: rotate(-9deg);
+    background: rgb(46,63,107);
+    background: linear-gradient(43deg, rgba(46,63,107,1) 0%, rgba(44,84,145,1) 17%, rgba(47,83,141,0.6783088235294117) 100%);
+  }
+
+  .pupil {
+  	position: absolute;
+    top: 28.5%;
+    left: 24%;
+    width: 43%;
+    height: 48%;
+    border-radius: 61px / 100px;
+    background: #080705;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(31,33,56,1);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(31,33,56,1);
+	box-shadow: 0px 0px 5px 0px rgba(31,33,56,1);
+  }
+
+  .eye-shadow-upper {
+  	position: absolute;
+    top: 1.5%;
+    left: 23%;
+    width: 39%;
+    height: 41%;
+    border: solid 3px #7e98b9;
+    border-radius: 61px / 100px;
+    background: #fff;
+  }
+
+  .eye-shadow-bottom {
+  	position: absolute;
+    top: 80%;
+    left: 46%;
+    width: 45%;
+    height: 14%;
+    border-radius: 50%;
+    background: rgb(71,114,167);
+    background: radial-gradient(circle, rgba(71,114,167,1) 0%, rgba(51,98,154,0.7203256302521008) 74%);
+    transform: rotate(-51deg);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(71,114,167,1);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(71,114,167,1);
+	box-shadow: 0px 0px 5px 0px rgba(71,114,167,1);
+  }
+
+  .beak-upper {
+  	position: absolute;
+  	top: 56.5%;
+  	left: 84%;
+  	width: 17%;
+  	height: 22%;
+  	-webkit-border-radius: 50%/60% 60% 40% 40%;
+  	-moz-border-radius: 50%/60% 60% 40% 40%;
+  	border-radius: 50%/60% 60% 40% 40%;
+  	background: rgb(192,170,59);
+  	background: linear-gradient(66deg, rgba(192,170,59,1) 0%, rgba(245,207,62,1) 35%, rgba(255,255,255,1) 100%);
+  	border: solid 3px #000;
+  	z-index: 4;
+  }
+
+  .beak-bottom {
+  	position: absolute;
+  	top: 60.5%;
+  	left: 84%;
+  	width: 15%;
+  	height: 21%;
+  	-webkit-border-radius: 83% 88% 106% 75%;
+  	-moz-border-radius: 83% 88% 106% 75%;
+  	border-radius: 83% 88% 106% 75%;
+  	border: solid 2px #000;
+  	background: #c0aa3b;
+  	z-index: 3;
+  }
+
+  .mouth-fur {
+  }
