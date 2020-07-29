@@ -26,7 +26,7 @@
     background: #4083ba;
     border-radius: 60% 54% 57% 53%;
     border: solid 2px #000;
-    z-index: 3
+    z-index: 2;
   }
 
 
@@ -40,6 +40,7 @@
     border-radius: 71px 58px 20px 77px;
     transform: rotate(-41deg);
     background: #ffffff;
+    z-index: 4;
   }
 
   .eye {
@@ -53,6 +54,7 @@
     transform: rotate(-9deg);
     background: rgb(46,63,107);
     background: linear-gradient(43deg, rgba(46,63,107,1) 0%, rgba(44,84,145,1) 17%, rgba(47,83,141,0.67) 100%);
+    z-index: 5;
   }
 
   .pupil {
@@ -106,7 +108,7 @@
   	background: rgb(192,170,59);
   	background: linear-gradient(66deg, rgba(192,170,59,1) 0%, rgba(245,207,62,1) 35%, rgba(255,255,255,1) 100%);
   	border: solid 2px #000;
-  	z-index: 4;
+  	z-index: 5;
   }
 
   .beak-bottom {
@@ -120,14 +122,16 @@
   	border-radius: 83% 88% 106% 75%;
   	border: solid 1px #000;
   	background: #c0aa3b;
-  	z-index: 3;
+  	z-index: 4;
   }
 
   .mouth-feather {
 
   }
 
-  .upper-feather-front-right {
+  
+    
+    .upper-feather-front-right {
     position: absolute;
     top: 47.5%;
     left: 63%;
@@ -136,10 +140,10 @@
     -webkit-border-radius: 50%/60% 60% 40% 40%;
     -moz-border-radius: 50%/60% 60% 40% 40%;
     border-radius: 50%/60% 60% 40% 40%;
-    border: solid 2px #4083ba;
+    border: solid 2px #000;
     background: #4083ba;
     transform: rotate(-233deg);
-    z-index: 2;
+    z-index: 1;
   }
 
   .upper-feather-front-left {
@@ -151,10 +155,25 @@
     -webkit-border-radius: 50%/60% 60% 40% 40%;
     -moz-border-radius: 50%/60% 60% 40% 40%;
     border-radius: 50%/60% 60% 40% 40%;
-    border: solid 2px #4083ba;
+    border: solid 2px #000;
     background: #4083ba;
     transform: rotate(-47deg);
-    z-index: 2;
+    z-index: 1;
+  }
+
+  .upper-feather-front-left-masking {
+    position: absolute;
+    top: 43.5%;
+    left: 39.5%;
+    width: 21%;
+    height: 21%;
+    -webkit-border-radius: 50%/60% 60% 40% 40%;
+    -moz-border-radius: 50%/60% 60% 40% 40%;
+    border-radius: 50%/60% 60% 40% 40%;
+    border: solid 2px #4083ba;
+    background: #4083ba;
+    transform: rotate(-61deg);
+    z-index: 1;
   }
 
   .upper-feather-front-back {
@@ -166,10 +185,24 @@
     -webkit-border-radius: 50%/60% 60% 40% 40%;
     -moz-border-radius: 50%/60% 60% 40% 40%;
     border-radius: 50%/60% 64% 42% 46%;
-    border: solid 2px #4083ba;
+    border: solid 2px #000;
     background: #4083ba;
     transform: rotate(-125deg);
-    z-index: 2;
+    z-index: 0;
+  }
+
+  .upper-feather-front-back-masking {
+    position: absolute;
+    top: 52%;
+    left: 18%;
+    width: 9%;
+    height: 10%;
+    -webkit-border-radius: 50%/60% 60% 40% 40%;
+    -moz-border-radius: 50%/60% 60% 40% 40%;
+    border-radius: 50%/60% 64% 42% 46%;
+    background: #4083ba;
+    transform: rotate(-36deg);
+    z-index: 1;
   }
 
   .upper-feather-tail-right {
@@ -181,10 +214,10 @@
     -webkit-border-radius: 50%/60% 60% 40% 40%;
     -moz-border-radius: 50%/60% 60% 40% 40%;
     border-radius: 50%/60% 64% 42% 46%;
-    border: solid 2px #4083ba;
+    border: solid 2px #000;
     background: #4083ba;
     transform: rotate(-32deg);
-    z-index: 2;
+    z-index: -1;
   }
 
   .upper-feather-tail-left {
@@ -196,8 +229,8 @@
     -webkit-border-radius: 50%/60% 60% 40% 40%;
     -moz-border-radius: 50%/60% 60% 40% 40%;
     border-radius: 50%/60% 64% 42% 46%;
-    border: solid 2px #4083ba;
+    border: solid 2px #000;
     background: #4083ba;
     transform: rotate(-32deg);
-    z-index: 2;
+    z-index: -1;
   }
