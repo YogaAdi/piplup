@@ -19,14 +19,14 @@
 
   .head {
   	position: absolute;
-  	top: 5.5%;
-  	left: 19%;
-  	width: 68%;
-  	height: 46%;
-  	background: none;
-  	border-radius: 54% 54% 57% 49%;
-  	border: solid 2px #000;
-  	z-index: 3;
+    top: 5.5%;
+    left: 19%;
+    width: 68%;
+    height: 46%;
+    background: #4083ba;
+    border-radius: 60% 54% 57% 53%;
+    border: solid 2px #000;
+    z-index: 3
   }
 
 
@@ -39,7 +39,7 @@
     border: solid 2px #000;
     border-radius: 71px 58px 20px 77px;
     transform: rotate(-41deg);
-    background: none;
+    background: #ffffff;
   }
 
   .eye {
@@ -136,7 +136,8 @@
     -webkit-border-radius: 50%/60% 60% 40% 40%;
     -moz-border-radius: 50%/60% 60% 40% 40%;
     border-radius: 50%/60% 60% 40% 40%;
-    border: solid 2px #000;
+    border: solid 2px #4083ba;
+    background: #4083ba;
     transform: rotate(-233deg);
     z-index: 2;
   }
@@ -150,7 +151,8 @@
     -webkit-border-radius: 50%/60% 60% 40% 40%;
     -moz-border-radius: 50%/60% 60% 40% 40%;
     border-radius: 50%/60% 60% 40% 40%;
-    border: solid 2px #000;
+    border: solid 2px #4083ba;
+    background: #4083ba;
     transform: rotate(-47deg);
     z-index: 2;
   }
@@ -164,7 +166,8 @@
     -webkit-border-radius: 50%/60% 60% 40% 40%;
     -moz-border-radius: 50%/60% 60% 40% 40%;
     border-radius: 50%/60% 64% 42% 46%;
-    border: solid 2px #000;
+    border: solid 2px #4083ba;
+    background: #4083ba;
     transform: rotate(-125deg);
     z-index: 2;
   }
@@ -178,7 +181,8 @@
     -webkit-border-radius: 50%/60% 60% 40% 40%;
     -moz-border-radius: 50%/60% 60% 40% 40%;
     border-radius: 50%/60% 64% 42% 46%;
-    border: solid 2px #000;
+    border: solid 2px #4083ba;
+    background: #4083ba;
     transform: rotate(-32deg);
     z-index: 2;
   }
@@ -192,7 +196,8 @@
     -webkit-border-radius: 50%/60% 60% 40% 40%;
     -moz-border-radius: 50%/60% 60% 40% 40%;
     border-radius: 50%/60% 64% 42% 46%;
-    border: solid 2px #000;
+    border: solid 2px #4083ba;
+    background: #4083ba;
     transform: rotate(-32deg);
     z-index: 2;
   }
