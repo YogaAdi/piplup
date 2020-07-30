@@ -33,11 +33,11 @@
   .eye-feather {
     position: absolute;
     top: 32%;
-    left: 27%;
+    left: 30%;
     width: 52%;
     height: 70%;
     border: solid 2px #000;
-    border-radius: 71px 58px 20px 77px;
+    border-radius: 70px 58px 50px 81px;
     transform: rotate(-41deg);
     background: #ffffff;
     z-index: 5;
@@ -45,8 +45,8 @@
 
   .eye {
   	position: absolute;
-    top: 52.5%;
-    left: 48%;
+    top: 51.5%;
+    left: 50%;
     width: 14%;
     height: 27%;
     border: solid 2px #000;
@@ -126,7 +126,16 @@
   }
 
   .mouth-feather {
-
+    position: absolute;
+    background: #add6da;
+    width: 112%;
+    height: 199%;
+    left: -13%;
+    top: -4%;
+    border: 2px solid #000;
+    -webkit-clip-path: polygon(84% 38%, 81% 32%, 73% 24%, 83% 25%, 88% 18%, 96% 23%, 97% 20%, 98% 24%, 99% 26%, 99% 28%, 98% 30%, 98% 32%, 97% 36%);
+    clip-path: polygon(83% 35%, 81% 32%, 73% 24%, 83% 25%, 88% 18%, 96% 23%, 97% 22%, 98% 18%, 100% 27%, 99% 32%, 98% 37%, 104% 39%, 85% 37%);
+    z-index: 4;
   }
 
   
@@ -291,6 +300,18 @@
     z-index: 0;
   }
 
+  .main-body-left-foot-masking {
+    position: absolute;
+    top: 78.2%;
+    left: 29.8%;
+    width: 18.5%;
+    height: 6%;
+    border-radius: 49% 28% 82% 46%;
+    transform: rotate(19deg);
+    background: #add6da;
+    z-index: 0;
+  }
+
   .left-wing {
     position: absolute;
     top: 54.5%;
@@ -304,4 +325,51 @@
     transform: rotate(197deg);
     background: #add6da;
     z-index: 0;
+  }
+
+  .right-wing {
+    position: absolute;
+    top: 54.5%;
+    left: 62.5%;
+    width: 13%;
+    height: 20%;
+    -webkit-border-radius: 62% 84% 64% 62%;
+    -moz-border-radius: 62% 84% 64% 62%;
+    border-radius: 62% 89% 61% 85%;
+    border: solid 2px #000;
+    transform: rotate(3deg);
+    background: #add6da;
+    z-index: -1;
+  }
+
+  .left-foot {
+    position: absolute;
+    top: 77%;
+    left: 34.3%;
+    width: 11.5%;
+    height: 19%;
+    -webkit-border-radius: 75% 38% 70% 53%;
+    -moz-border-radius: 75% 38% 70% 53%;
+    border-radius: 75% 38% 70% 53%;
+    border: solid 2px #000;
+    transform: rotate(-54deg);
+    background: rgb(245,208,65);
+    background: linear-gradient(10deg, rgba(245,208,65,1) 35%, rgba(188,168,56,1) 100%);
+    z-index: -1;
+  }
+
+  .right-foot {
+    position: absolute;
+    top: 76%;
+    left: 61.3%;
+    width: 9.5%;
+    height: 13%;
+    -webkit-border-radius: 75% 38% 70% 53%;
+    -moz-border-radius: 75% 38% 70% 53%;
+    border-radius: 74% 35% 75% 32%;
+    border: solid 2px #000;
+    transform: rotate(-88deg);
+    background: rgb(245,208,65);
+    background: linear-gradient(33deg, rgba(245,208,65,1) 54%, rgba(188,168,56,1) 100%);
+    z-index: -1;
   }
